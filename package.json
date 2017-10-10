@@ -1,0 +1,19 @@
+{
+  "name": "token-ico",
+  "version": "1.0.0",
+  "description": "DeeCoin Token and ICO",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0-beta.15",
+    "zeppelin-solidity": "^1.3.0"
+  }
+}
+
