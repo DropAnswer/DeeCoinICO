@@ -34,18 +34,19 @@ contract DeeCoinICO is StandardToken {
      */
     address public fundsWallet;
 
+    /*
     function DeeCoinICO(address _fundsWallet, uint256 _startTimestamp) {
         fundsWallet = _fundsWallet;//0x7Bd1EBD3267e8cda6d44d619ec24a1E782fB0BD5;
         startTimestamp = _startTimestamp;
-
         //initially assign all tokens to the fundsWallet
         balances[fundsWallet] = totalSupply;
         Transfer(0x0, fundsWallet, totalSupply);
-    }
+    }*/
 
-    function DeeCoinICO2() {
-        fundsWallet = 0x7Bd1EBD3267e8cda6d44d619ec24a1E782fB0BD5;
-        startTimestamp = now;
+    function DeeCoinICO() {
+        fundsWallet = 0x181a7Ad881f791037755f139fb32a870F054200C;
+        startTimestamp = 1510729200; // 2017-11-15
+	releaseTimestamp = 1526367600; //2018-05-15
 
         // initially assign all tokens to the fundsWallet
         balances[fundsWallet] = totalSupply;
